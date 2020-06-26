@@ -19,21 +19,21 @@ Methodology:
   
 - Step 2 - Create features: 
   Create part of general features without using n-grams to save time. Then create other features for texts after creating train subsets and test subsets with n-grams： 
-  -Text_n_words: Number of words in original text
-  -Text_n_str: Number of strings in original text
-  -Text_n_uq_chars: Number of unique characters in original text
-  -Sel_text_n_words: Number of words in ngram
-  -Prop_sel_text_len: Length of selected words / Length of original texts
-  -Sentiment: positive/ negative/ neutral
-  -Dif_text_sent_blob: sentiment score difference between ngram and original text based on Blob sentiment analysis package
-  -Sel_text_n_str: Number of strings of texts in ngram
-  -Prop_sel_text_n_str: Number of strings of ngram / Number of strings of texts
-  -Sel_text_n_uq_words: Number of unique words of ngram
-  -Prop_sel_text_n_uq_words: Number of unique words in ngram / Number of unique words in the original text
-  -Prop_sel_text_n_uq_chars: Number of unique characters in ngram / Number of unique characters in original text
-  -Prop_sel_text_n_prepositions: Number of prepositions in ngram / Number of prepositions in original text
+  - Text_n_words: Number of words in original text
+  - Text_n_str: Number of strings in original text
+  - Text_n_uq_chars: Number of unique characters in original text
+  - Sel_text_n_words: Number of words in ngram
+  - Prop_sel_text_len: Length of selected words / Length of original texts
+  - Sentiment: positive/ negative/ neutral
+  - Dif_text_sent_blob: sentiment score difference between ngram and original text based on Blob sentiment analysis package
+  - Sel_text_n_str: Number of strings of texts in ngram
+  - Prop_sel_text_n_str: Number of strings of ngram / Number of strings of texts
+  - Sel_text_n_uq_words: Number of unique words of ngram
+  - Prop_sel_text_n_uq_words: Number of unique words in ngram / Number of unique words in the original text
+  - Prop_sel_text_n_uq_chars: Number of unique characters in ngram / Number of unique characters in original text
+  - Prop_sel_text_n_prepositions: Number of prepositions in ngram / Number of prepositions in original text
 - Step 3 - Create Dependent Variable:
-  Jaccard: Jaccard score between n-grams and selected text
+  - Jaccard: Jaccard score between n-grams and selected text
 - Step 4 - Train model and make predictions
   - Train XgBoost regression model on created train subsets with n-grams;
   - Used trained model to predict jaccard score on test subsets with n-grams;
