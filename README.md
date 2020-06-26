@@ -23,7 +23,7 @@ Methodology:
   - Text_n_str: Number of strings in original text
   - Text_n_uq_chars: Number of unique characters in original text
   - Sel_text_n_words: Number of words in ngram
-  - Prop_sel_text_len: Length of selected words / Length of original texts
+  - Prop_sel_text_len: Length of ngram / Length of original texts
   - Sentiment: positive/ negative/ neutral
   - Dif_text_sent_blob: sentiment score difference between ngram and original text based on Blob sentiment analysis package
   - Sel_text_n_str: Number of strings of texts in ngram
