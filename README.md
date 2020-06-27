@@ -3,7 +3,7 @@
 ![1_vp1M37AGMOFwCvLxVm62IA](https://user-images.githubusercontent.com/55762821/85913667-c738f480-b804-11ea-964c-c54b4dee7d75.jpeg)
 Pic Source : bensonruan.com
 
-*This is group project created for a Kaggle competition: Tweet Sentiment Extraction - https://www.kaggle.com/c/tweet-sentiment-extraction*
+*This is a group project created for a Kaggle competition: Tweet Sentiment Extraction - https://www.kaggle.com/c/tweet-sentiment-extraction*
 
 
 Project content:
