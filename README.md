@@ -40,3 +40,7 @@ Methodology:
   - Select rows of texts with unique ‘textID’ with the highest jaccard score;
   - Use ‘ngram’ in each of the rows as predictions for texts with positive/negative sentiment;
   - Use original text to represent predictions for texts with neutral sentiment.
+  
+  Kaggle Score:
+  
+  <img width="924" alt="Screen Shot 2020-06-26 at 22 31 55" src="https://user-images.githubusercontent.com/55762821/85913639-8345ef80-b804-11ea-8a34-9fd1df4b50fd.png">
