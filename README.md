@@ -6,14 +6,14 @@ Pic Source : bensonruan.com
 *This is a group project created for a Kaggle competition: Tweet Sentiment Extraction - https://www.kaggle.com/c/tweet-sentiment-extraction*
 
 
-Project content:
+### Project content:
 
 Capturing tweets sentiments is essential in today’s online community since the comments may have significant business or personal impacts. This dataset includes 27481 unique tweets and provides the sentiment for each tweet accordingly.
 The training csv file contains four columns: “textID”, “text”, “selected_text”, “sentiment”. The testing csv file contains three columns: “textID”, “text”, “sentiment”.The sentiment includes “neutral”, “positive” and “negative” tones. 
 
 What we need is to develop a method to pick out the part of the tweet (word or phrase) that reflects the sentiment (sentiment is given) - Which means we need to create the "selected_text" column in the test dataset.
 
-Methodology:
+### Methodology:
 - Step 1 - Preprocessing:
   - Drop missing value (row 314) from train set;
   - Remove texts with neutral sentiment from train set and test set;
@@ -44,6 +44,6 @@ Methodology:
   - Use ‘ngram’ in each of the rows as predictions for texts with positive/negative sentiment;
   - Use original text to represent predictions for texts with neutral sentiment.
   
-  Kaggle Score:
+  #### Kaggle Score:
   
   <img width="924" alt="Screen Shot 2020-06-26 at 22 31 55" src="https://user-images.githubusercontent.com/55762821/85913639-8345ef80-b804-11ea-8a34-9fd1df4b50fd.png">
